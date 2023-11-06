@@ -9,10 +9,13 @@ class HomeController extends Controller
     //
     public function dashboard()
     {
-        return view('welcome');
+        return view('home.index');
     }
 
     public function form() {
         return view('student.form');
     }
+
+
 }
+

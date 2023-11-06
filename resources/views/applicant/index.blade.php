@@ -11,7 +11,7 @@
     </div>
     @endif
 
-    <table class="table">
+    <table class="table my-5">
         <thead>
             <tr>
                 <th>Application ID</th>

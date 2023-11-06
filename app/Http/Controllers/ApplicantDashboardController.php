@@ -18,6 +18,11 @@ class ApplicantDashboardController extends Controller
         $data['user'] = auth()->user();
         return view('applicant.profile', $data);
     }
+    public function editprofile () {
+        $data['user'] = auth()->user();
+        return view('applicant.edit-profile',$data);
+    }
+
 
     public function application() {
         return view('applicant.form');
